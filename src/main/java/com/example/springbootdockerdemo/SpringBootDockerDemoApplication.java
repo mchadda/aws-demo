@@ -16,7 +16,7 @@ public class SpringBootDockerDemoApplication {
 	
 	@GetMapping("/testing")
 	public String getDisplayTest() {
-		return "Done testing";
+		return "Done testings";
 	}
 
 	public static void main(String[] args) {
